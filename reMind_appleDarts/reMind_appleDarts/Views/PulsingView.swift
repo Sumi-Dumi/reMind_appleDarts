@@ -12,7 +12,7 @@ import SwiftUI
 struct PulsingView: View {
     var body: some View {
         VStack {
-            
+            Text("hello")
         }
         .padding()
     }
