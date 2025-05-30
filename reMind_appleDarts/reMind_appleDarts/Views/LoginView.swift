@@ -32,7 +32,7 @@ struct LoginView: View {
                     Text("Login")
                         .frame(maxWidth: .infinity)
                         .padding()
-                        .background(Color(red: 229/255, green: 246/255, blue: 122/255))
+                        .background(Color.primaryGreen)
                         .cornerRadius(15)
                         .foregroundColor(.black)
                         .font(.headline)
@@ -46,12 +46,8 @@ struct LoginView: View {
                     Text("Signup")
                         .frame(maxWidth: .infinity)
                         .padding()
-                        .background(Color(red: 229/255, green: 246/255, blue: 122/255))
+                        .background(Color.primaryGreen)
                         .cornerRadius(15)
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 15)
-                                .stroke(Color.green, lineWidth: 2)
-                        )
                         .foregroundColor(.black)
                         .font(.headline)
                 }
