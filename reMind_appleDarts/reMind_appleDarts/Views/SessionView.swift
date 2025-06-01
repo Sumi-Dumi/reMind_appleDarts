@@ -17,8 +17,7 @@ struct VideoChatView: View {
             // video
 //            VideoPlayer(player: AVPlayer(url: videoURL))
 //                .ignoresSafeArea()
-            
-            // UI
+            ///////            // UI
             VStack {
                 // Progress
                 VStack {
