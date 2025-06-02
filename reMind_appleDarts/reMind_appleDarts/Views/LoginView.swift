@@ -27,7 +27,7 @@ struct LoginView: View {
                     .foregroundColor(.black)
 
                 // Subtitle
-                Text("Enter your details to proceed further")
+                Text("Let’s get you signed in!")
                     .font(.subheadline)
                     .foregroundColor(Color.gray)
 
