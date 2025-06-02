@@ -6,15 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		111B4C6E38C03B7895CA032D /* Pods_reMind_appleDarts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782E03A2978AF5EC258376C3 /* Pods_reMind_appleDarts.framework */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		2DBB05BBD447C12A9CDC75ED /* Pods-reMind_appleDarts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reMind_appleDarts.release.xcconfig"; path = "Target Support Files/Pods-reMind_appleDarts/Pods-reMind_appleDarts.release.xcconfig"; sourceTree = "<group>"; };
-		782E03A2978AF5EC258376C3 /* Pods_reMind_appleDarts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reMind_appleDarts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43371542DE9409B00FAFAED /* reMind_appleDarts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reMind_appleDarts.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B77D07F3F0337D8935537ED5 /* Pods-reMind_appleDarts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reMind_appleDarts.debug.xcconfig"; path = "Target Support Files/Pods-reMind_appleDarts/Pods-reMind_appleDarts.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -30,7 +23,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				111B4C6E38C03B7895CA032D /* Pods_reMind_appleDarts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,7 +32,6 @@
 		20A4C8388A03DD621E1DD01E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				782E03A2978AF5EC258376C3 /* Pods_reMind_appleDarts.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -50,7 +41,6 @@
 			children = (
 				A43371562DE9409B00FAFAED /* reMind_appleDarts */,
 				A43371552DE9409B00FAFAED /* Products */,
-				FC3533811FA83119CC5CF637 /* Pods */,
 				20A4C8388A03DD621E1DD01E /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -61,15 +51,6 @@
 				A43371542DE9409B00FAFAED /* reMind_appleDarts.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		FC3533811FA83119CC5CF637 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B77D07F3F0337D8935537ED5 /* Pods-reMind_appleDarts.debug.xcconfig */,
-				2DBB05BBD447C12A9CDC75ED /* Pods-reMind_appleDarts.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,7 +300,6 @@
 		};
 		A43371602DE9409B00FAFAED /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B77D07F3F0337D8935537ED5 /* Pods-reMind_appleDarts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -347,7 +327,6 @@
 		};
 		A43371612DE9409B00FAFAED /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DBB05BBD447C12A9CDC75ED /* Pods-reMind_appleDarts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
