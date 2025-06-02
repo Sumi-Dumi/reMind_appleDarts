@@ -26,7 +26,7 @@ struct RegisterView: View {
                     .font(.system(size: 32, weight: .bold))
                     .foregroundColor(.black)
 
-                Text("Enter your details to proceed further")
+                Text("Welcome! Let’s create your account.")
                     .font(.subheadline)
                     .foregroundColor(.gray)
 

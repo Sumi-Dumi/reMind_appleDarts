@@ -1,0 +1,6 @@
+framework module Pods_reMind_appleDarts {
+  umbrella header "Pods-reMind_appleDarts-umbrella.h"
+
+  export *
+  module * { export * }
+}

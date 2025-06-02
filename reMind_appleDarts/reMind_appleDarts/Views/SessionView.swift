@@ -17,14 +17,15 @@ struct SessionView: View {
 
 //            VideoPlayer(player: AVPlayer(url: videoURL))
 //                .ignoresSafeArea()
-            ///////            // UI
+                    // UI
             VStack {
                 // Progress
-                VStack {
-                    ProgressView(value: progress)
-                        .progressViewStyle(LinearProgressViewStyle(tint: .blue))
-                        .background(Color.white.opacity(0.3))
-                    Spacer()
+                HStack(spacing: 6) {
+                    ForEach(0..<5) { index in
+                        Capsule()
+                            .frame(height: 4)
+                            .foregroundColor(index < 1 ? .black : .black.opacity(0.3)) // adjust based on progress
+                    }
                 }
                 .padding(.top, 20)
                 .padding(.horizontal, 20)
