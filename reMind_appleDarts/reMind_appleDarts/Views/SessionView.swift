@@ -9,12 +9,12 @@
 import SwiftUI
 import AVKit
 
-struct VideoChatView: View {
+struct SessionView: View {
     @State private var progress: Float = 0.6
     
     var body: some View {
         ZStack {
-            // video
+
 //            VideoPlayer(player: AVPlayer(url: videoURL))
 //                .ignoresSafeArea()
                     // UI
@@ -89,15 +89,15 @@ struct VideoChatView: View {
         }
     }
     
-//    // sample video URL
-//    private var videoURL: URL {
-//        // ローカルファイルの場合
-//        Bundle.main.url(forResource: "sample_video", withExtension: "mp4")!
-//    }
+    // sample video URL
+    private var videoURL: URL {
+        //video place
+        Bundle.main.url(forResource: "sample_video", withExtension: "mp4")!
+    }
 }
 
-struct VideoChatView_Previews: PreviewProvider {
+struct SessionView_Previews: PreviewProvider {
     static var previews: some View {
-        VideoChatView()
+        SessionView()
     }
 }
