@@ -20,8 +20,6 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A43371562DE9409B00FAFAED /* reMind_appleDarts */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = reMind_appleDarts;
 			sourceTree = "<group>";
 		};
@@ -71,7 +69,6 @@
 				B77D07F3F0337D8935537ED5 /* Pods-reMind_appleDarts.debug.xcconfig */,
 				2DBB05BBD447C12A9CDC75ED /* Pods-reMind_appleDarts.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -175,9 +172,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-reMind_appleDarts/Pods-reMind_appleDarts-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-reMind_appleDarts/Pods-reMind_appleDarts-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
