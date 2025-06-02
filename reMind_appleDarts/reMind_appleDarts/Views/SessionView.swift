@@ -15,8 +15,8 @@ struct SessionView: View {
     var body: some View {
         ZStack {
 
-            VideoPlayer(player: AVPlayer(url: videoURL))
-                .ignoresSafeArea()
+//            VideoPlayer(player: AVPlayer(url: videoURL))
+//                .ignoresSafeArea()
             
             // UI
             VStack {
