@@ -17,8 +17,7 @@ struct SessionView: View {
 
 //            VideoPlayer(player: AVPlayer(url: videoURL))
 //                .ignoresSafeArea()
-            
-            // UI
+            ///////            // UI
             VStack {
                 // Progress
                 VStack {

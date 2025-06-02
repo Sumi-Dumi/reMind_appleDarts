@@ -30,7 +30,7 @@ struct EndSessionView: View {
                 }
                 ZStack{
                     Rectangle()
-                        .fill(Color.green)
+                        .fill(Color.primaryGreen)
                         .frame(width: 100, height: 30)
                         .cornerRadius(10)
                     Button(action: {
